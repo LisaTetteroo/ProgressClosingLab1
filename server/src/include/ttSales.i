@@ -14,7 +14,10 @@
 
 /* ***************************  Definitions  ************************** */
 
-DEFINE TEMP-TABLE ttSales NO-UNDO BEFORE-TABLE bttSales.
-    FIELD SalesRep AS CHARACTER LABEL "Sales Rep"
-    FIELD SalesName AS CHARACTER LABEL "Sales NAme"
-    .
+DEFINE TEMP-TABLE ttSales
+    FIELD Salesrep   AS CHARACTER LABEL "Sales Rep" FORMAT "x(3)"
+    FIELD SalesName  AS CHARACTER LABEL "Sales Name" FORMAT "x(15)"
+    FIELD Month      AS INTEGER   LABEL "Month" FORMAT "99"
+    FIELD TotalSales AS DECIMAL   LABEL "Tot. Sales" FORMAT ">>9,999,999.99"
+    INDEX idx1 AS UNIQUE Salesrep Month.
+

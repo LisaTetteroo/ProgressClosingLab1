@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src" type="PathEntry" ModificationStamp="1592840345088" FullName="src" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="BusinessLogic">
+			<procedure name="blCalcMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/BusinessLogic/blCalcMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blCalcMonthlySales.r"></procedure>
+			<procedure name="blItemPriceUpd" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/BusinessLogic/blItemPriceUpd.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blItemPriceUpd.r"></procedure>
+		</relative>
+		<relative path="solutions">
+			<procedure name="blCalcMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/solutions/blCalcMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales.r"></procedure>
+			<procedure name="blCalcMonthlySales_Essential" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/solutions/blCalcMonthlySales_Essential.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales_Essential.r"></procedure>
+		</relative>
+		<relative path="client">
+			<procedure name="clientMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/client/clientMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/client/clientMonthlySales.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="BusinessLogic">
+			<class name="BusinessLogic.ttItem" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/BusinessLogic/ttItem.cls" RfilePath="" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages="Progress.Lang.*æOpenEdge.BusinessLogic.BusinessEntityæ"></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

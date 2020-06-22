@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;server/src/BusinessLogic/ttItem.cls&apos;" deleteContents="false" description="Delete resource &apos;server/src/BusinessLogic/ttItem.cls&apos;" element1="/server/src/BusinessLogic/ttItem.cls" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1592835877444"/>
+</session>

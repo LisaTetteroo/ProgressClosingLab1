@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server" type="PathEntry" ModificationStamp="1592840345089" FullName="server" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="bin/solutions">
+			<procedure name="blCalcMonthlySales_Essential" SourceFilePath="" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales_Essential.r"></procedure>
+			<procedure name="blCalcMonthlySales" SourceFilePath="" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales.r"></procedure>
+		</relative>
+		<relative path="PASOEContent/WEB-INF/home">
+			<procedure name="ServerStatus" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/WEB-INF/home/ServerStatus.html" RfilePath=""></procedure>
+			<procedure name="home" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/WEB-INF/home/home.html" RfilePath=""></procedure>
+		</relative>
+		<relative path="PASOEContent/static/error">
+			<procedure name="error401" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/error/error401.html" RfilePath=""></procedure>
+			<procedure name="error403" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/error/error403.html" RfilePath=""></procedure>
+			<procedure name="error404" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/error/error404.html" RfilePath=""></procedure>
+			<procedure name="error500" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/error/error500.html" RfilePath=""></procedure>
+			<procedure name="error503" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/error/error503.html" RfilePath=""></procedure>
+		</relative>
+		<relative path="bin/client">
+			<procedure name="clientMonthlySales" SourceFilePath="" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/client/clientMonthlySales.r"></procedure>
+		</relative>
+		<relative path="src/client">
+			<procedure name="clientMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/client/clientMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/client/clientMonthlySales.r"></procedure>
+		</relative>
+		<relative path="src/BusinessLogic">
+			<procedure name="blCalcMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/BusinessLogic/blCalcMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blCalcMonthlySales.r"></procedure>
+			<procedure name="blItemPriceUpd" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/BusinessLogic/blItemPriceUpd.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blItemPriceUpd.r"></procedure>
+		</relative>
+		<relative path="PASOEContent/static/auth">
+			<procedure name="login" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/auth/login.html" RfilePath=""></procedure>
+			<procedure name="loginfail" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/auth/loginfail.html" RfilePath=""></procedure>
+			<procedure name="logout" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/auth/logout.html" RfilePath=""></procedure>
+		</relative>
+		<relative path="PASOEContent/static">
+			<procedure name="commonPageFooter" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/commonPageFooter.html" RfilePath=""></procedure>
+			<procedure name="commonPageHeader" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/commonPageHeader.html" RfilePath=""></procedure>
+			<procedure name="home" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/PASOEContent/static/home.html" RfilePath=""></procedure>
+		</relative>
+		<relative path="src/solutions">
+			<procedure name="blCalcMonthlySales" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/solutions/blCalcMonthlySales.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales.r"></procedure>
+			<procedure name="blCalcMonthlySales_Essential" SourceFilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/src/solutions/blCalcMonthlySales_Essential.p" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/solutions/blCalcMonthlySales_Essential.r"></procedure>
+		</relative>
+		<relative path="bin/BusinessLogic">
+			<procedure name="blCalcMonthlySales" SourceFilePath="" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blCalcMonthlySales.r"></procedure>
+			<procedure name="blItemPriceUpd" SourceFilePath="" RfilePath="D:/Documenten/ProgressOpenEdge/ClosingLab Week1/workspace/server/bin/BusinessLogic/blItemPriceUpd.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

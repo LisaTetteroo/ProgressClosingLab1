@@ -1,0 +1,29 @@
+
+/*------------------------------------------------------------------------
+    File        : clientMonthlySales.p
+    Purpose     : 
+
+    Syntax      :
+
+    Description : 
+
+    Author(s)   : lisa
+    Created     : Mon Jun 22 15:20:21 CEST 2020
+    Notes       :
+  ----------------------------------------------------------------------*/
+
+/* ***************************  Definitions  ************************** */
+
+
+BLOCK-LEVEL ON ERROR UNDO, THROW.
+
+{include/ttSales.i}
+/* ********************  Preprocessor Definitions  ******************** */
+
+
+/* ***************************  Main Block  *************************** */
+RUN BusinessLogic/blCalcMonthlySales.p (1997, "BBB", OUTPUT TABLE ttSales).
+
+FOR EACH ttSales:
+    DISPLAY ttSales.
+END.
