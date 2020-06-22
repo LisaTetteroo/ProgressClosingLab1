@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/databaseConnection.xsd">
+    <databaseconnection identifier="Sports2000">
+        <name>Sports2000</name>
+        <description/>
+        <physicalname>D:\Documenten\ProgressOpenEdge\WRK\sports2000.db</physicalname>
+        <logicalname/>
+        <aliases/>
+        <group/>
+        <host>localhost</host>
+        <service>9800</service>
+        <userID/>
+        <password/>
+        <connectionparameters/>
+        <SQLIdentifier>1e48e927:172dbcedb49:-7fec</SQLIdentifier>
+        <autoStartServer>true</autoStartServer>
+        <serverParameters>-db D:\Documenten\ProgressOpenEdge\WRK\sports2000.db -S 9800   </serverParameters>
+        <autoShutdownServer>false</autoShutdownServer>
+        <OEVersion>12.2</OEVersion>
+    </databaseconnection>
+</root>

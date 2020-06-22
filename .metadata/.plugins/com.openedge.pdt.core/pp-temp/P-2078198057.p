@@ -1,0 +1,28 @@
+
+/*------------------------------------------------------------------------
+    File        : blCalcMonthlySales.p
+    Purpose     : 
+
+    Syntax      :
+
+    Description : 
+
+    Author(s)   : lisa
+    Created     : Mon Jun 22 13:41:28 CEST 2020
+    Notes       :
+  ----------------------------------------------------------------------*/
+
+/* ***************************  Definitions  ************************** */
+
+BLOCK-LEVEL ON ERROR UNDO, THROW.
+
+DEFINE INPUT PARAMETER piYear AS INTEGER NO-UNDO.
+DEFINE INPUT PARAMETER pcSalesRep AS CHARACTER NO-UNDO.
+DEFINE OUTPUT PARAMETER TABLE FOR ttSales.
+
+DEFINE VARIABLE iTotalOrder AS DECIMAL NO-UNDO. 
+
+/* ********************  Preprocessor Definitions  ******************** */
+
+
+/* ***************************  Main Block  *************************** */

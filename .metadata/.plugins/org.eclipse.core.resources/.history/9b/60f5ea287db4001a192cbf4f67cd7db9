@@ -1,0 +1,80 @@
+            /*------------------------------------------------------------------------
+    File        : blCalcMonthlySales.p
+    Purpose     : Week 1 Closing Lab 1
+
+    Syntax      :
+
+    Description : Sales rep series calculation
+
+    Author(s)   : M.Squintani
+    Created     : Tue Dec 20 08:30:51 UTC 2016
+    Notes       : In sports2000 database:
+                  - All orders are from years 1997 and 1998 only
+                  - SalesReps: BBB, DKP, DOS, GPE, HXM, JAL, KIK, RDR, SLS 
+  ----------------------------------------------------------------------*/
+
+/* ***************************  Definitions  ************************** */
+
+{Labs\Include\ttSales.i}
+/* ********************  Preprocessor Definitions  ******************** */
+
+/* ***************************  Main Block  *************************** */
+define input parameter  piYear as integer no-undo.
+define input parameter  pcSalesRep as char no-undo.
+define output parameter TABLE for ttSales.
+define output parameter pcStatus as logical no-undo.
+
+define variable totalOrder as decimal no-undo init 0.
+
+pcStatus = true.
+empty temp-table ttSales.
+
+// Preliminary check on existence of an Order for the input year
+find first Order where year(Order.OrderDate) = piYear no-lock no-error.
+if not available (Order) then 
+do:
+    pcStatus = false.
+    return error "No Orders for fiscal year " + string(piYear).
+end.
+// Preliminary check on existence of a Salerep for the input Salesrep
+find first Salesrep where Salesrep.SalesRep = pcSalesRep no-lock no-error.
+if not available (Salesrep) then 
+do:
+    pcStatus = false.
+    return error "No Salesrep for sales rep " + string(pcSalesRep).
+end.  
+// Preliminary check on existence of an Order for the input Salesrep
+find first Order where Order.SalesRep = pcSalesRep no-lock no-error.
+if not available (Order) then 
+do:
+    pcStatus = false.
+    return error "No Order for sales rep " + string(pcSalesRep) +
+                 "for fiscal year " + string(piYear) .
+end.  
+
+for first Salesrep where Salesrep.SalesRep = pcSalesRep no-lock,                      
+    each Order of Salesrep where year(Order.OrderDate) = piYear no-lock,
+        each OrderLine of Order no-lock
+        break by month(Order.OrderDate) :
+    
+        assign 
+            totalOrder = totalOrder + OrderLine.ExtendedPrice no-error.
+        if error-status:error then 
+        do:
+            pcStatus = false.
+            return error "Extended Price for Order " + string(Order.Ordernum) + "does not contain decimal values!".  
+        end.    
+    
+        if last-of(month(Order.OrderDate)) then 
+        do:
+            create ttSales.
+            assign  
+                ttsales.Salesrep   = Order.SalesRep
+                ttSales.SalesName  = Salesrep.RepName
+                ttSales.MONTH      = month(Order.OrderDate)
+                ttSales.TotalSales = totalOrder.
+            assign 
+                totalOrder = 0.
+        end.
+    end.
+

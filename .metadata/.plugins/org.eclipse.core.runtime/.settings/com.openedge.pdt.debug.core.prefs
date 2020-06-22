@@ -1,0 +1,8 @@
+com.openedge.pdt.debug.enable_PropertyEvaluation=true
+eclipse.preferences.version=1
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_buffers=true
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_datasets=true
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_parameters=true
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_properties=true
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_temptables=true
+org.eclipse.debug.ui.VariableView.com.openedge.pdt.debug.show_variables=true

@@ -1,0 +1,21 @@
+AutoIndentOnPaste=true
+addBlockLevelStmt=true
+addErrorhandling=true
+addwizards.insertionposition.key=Last 
+autocompletetrigger=false
+casekeywords=true
+com.openedge.pdt.text.editor.templates.preferences.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="com.openedge.pdt.text.editor.templates" deleted\="false" description\="" enabled\="true" name\="IF">IF ${cursor} THEN DO\:&\#13;\r\n&\#13;\r\nEND.</template></templates>
+compileonsave=true
+eclipse.preferences.version=1
+expansion=true
+keywordCasingAutomatic=true
+not.first.run=true
+preferences.migrated=12.2
+sort.database=8
+sort.ds=3
+sort.glblvar=2
+sort.keywords=7
+sort.macro=6
+sort.prgrmStructure=4
+sort.superprocedures=5
+sort.var=1
